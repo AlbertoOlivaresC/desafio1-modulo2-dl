@@ -1,0 +1,119 @@
+
+.main-container{
+    display: flex;
+}
+h1,h2{
+    font-family: 'Roboto', sans-serif;
+}
+p,h3{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    
+}
+
+/*------------PROFILE CONTAINER---------------*/
+.profile-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #BEC1BB solid 1px;
+    border-right: #BEC1BB solid 1px;
+    padding: 15px 30px;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px
+}
+.user img{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+}
+.status h2, p{
+    margin: 0px;
+}
+.options {
+    display: flex;
+    gap: 20px
+}
+.profile-container p,i{
+    color: #BEC1BB;
+}
+
+
+/*------------NEW CHAT--------------*/
+.new-chat{
+    border-bottom: solid #BEC1BB 1px;
+    border-right: solid #BEC1BB 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 40px;
+}
+.new-chat button{
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    background-color: #A491D2;
+    color: white;
+    padding: 15px 60px 15px 60px;
+}
+.new-chat button:hover{
+    background-color: #CDC3E6;
+}
+.new-chat button:focus{
+    background-color: #BEC1BB;
+}
+/*------------CONTACT------------------*/
+.contact{
+    display: flex;
+    align-items: center;
+    padding: 16.05px;
+    gap: 20px;
+    border-bottom: #BEC1BB 1px solid;
+    border-right: #BEC1BB 1px solid;
+}
+.contact img{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+}
+.contact-status h3{
+    margin: 0px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+/*--------------SECCION PRINCIPAL-------------*/
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+
+.flex-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flex-child img{
+    width: 350px;
+    height: 350px;
+    margin-bottom: 20px;
+}
+.flex-child h1{
+    font-size: 45px;
+    margin:0px;
+}
+.flex-child p{
+    line-height: 24px;
+}
+
